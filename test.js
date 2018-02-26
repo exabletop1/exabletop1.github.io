@@ -13,7 +13,7 @@ function dev() {
     textarea1.value+="9";
 }
 function pls() {
-    textarea1.value+="+";
+      textarea1.value+="+";
 }
 function chet() {
     textarea1.value+="4";
@@ -54,5 +54,7 @@ function scob1() {
 function scob2() {
     textarea1.value+=")";
 }
-
+function proverka(input) {
+    textarea1.value = textarea1.value.replace(/[^\d]/g, '');
+};
 
