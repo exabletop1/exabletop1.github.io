@@ -1,0 +1,321 @@
+
+#myContainer {
+    margin-top: 50px;
+    width:400px;
+    height:400px;
+    position: relative;
+    background: yellow;
+}
+
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: red;
+}
+
+.osnova {
+    border: 2px solid #151515;
+    height:500px;
+    width: 350px;
+    background:#151515; 
+    font-style: sans-serif;
+}
+
+.rovno {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.rovno:hover {
+    background: #ff5403;
+}
+
+.polevvoda {
+    border: 2px solid #ffffff7a;
+    height:100px;
+    width: 350px;
+    font-size: 27pt;
+    background: #4D4D4D;
+    color:white;
+}
+
+.ymnozhit {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.ymnozhit:hover {
+    background: #ff5403;
+}
+
+.stroka1 {
+    display: flex;
+}
+
+.Seven {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Seven:hover {
+    background: #ff5403;
+}
+
+.Vosem {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Vosem:hover {
+    background: #ff5403;
+}
+
+.Devyat {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Devyat:hover {
+    background: #ff5403;
+}
+
+.plus {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.plus:hover {
+    background: #ff5403;
+}
+
+.stroka2 {
+    display: flex;
+}
+
+.stroka3 {
+    display: flex;
+}
+
+.Chetyre {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Chetyre:hover {
+    background: #ff5403;
+}
+
+.Five {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Five:hover {
+    background: #ff5403;
+}
+
+.Six {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Six:hover {
+    background: #ff5403;
+}
+
+.minus {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.minus:hover {
+    background: #ff5403;
+}
+
+.stroka4 {
+    display: flex;
+}
+
+.stroka5 {
+    display: flex;
+}
+
+.One {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.One:hover {
+    background: #ff5403;
+}
+
+.Null {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Null:hover {
+    background: #ff5403;
+}
+
+.Two {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Two:hover {
+    background: #ff5403;
+}
+
+.Tree {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Tree:hover {
+    background: #ff5403;
+}
+
+.Delenye {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Delenye:hover {
+    background: #ff5403;
+}
+
+.Steret {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 23pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.Steret:hover {
+    background: #ff5403;
+}
+
+.levscob {
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.levscob:hover {
+    background: #ff5403;
+}
+.pravscob {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #ff5403;
+    width: 45px;
+    height: 45px;
+    font-size: 27pt;
+    text-align: center;
+    color: white;
+    transition: top 1s ease-out 0.5s;
+}
+.pravscob:hover {
+    background: #ff5403;
+}
