@@ -3,7 +3,7 @@ function sem() {
     textarea1.value+="7";
 }
 function rovno() {
-    textarea1.value = eval(textarea1.value);
+    textarea1.value = eval(textarea1.value.replace(/[^\d]/g, ''));
 }
 
 function vosem() {
