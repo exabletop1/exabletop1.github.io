@@ -1,60 +1,13 @@
-var a,razm;
-function sem() {
-    textarea1.value+="7";
+window.onscroll = function() {
+    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    document.getElementById('showScroll').innerHTML = scrolled + 'px';
+    e1.style.display = "none";
+    e2.style.display = "block";
+    if (scrolled == 0) { e1.style.display = "block";
+                         e2.style.display = "none";
+        
+    }
+    if (scrolled != 0) {e3.style.display = "block";
+}else{e3.style.display = "none"}
 }
-function rovno() {
-    textarea1.value = eval(textarea1.value);
-}
-
-function vosem() {
-    textarea1.value+="8";
-}
-function dev() {
-    textarea1.value+="9";
-}
-function pls() {
-      textarea1.value+="+";
-}
-function chet() {
-    textarea1.value+="4";
-}
-function pyat() {
-    textarea1.value+="5";
-}
-function shest() {
-    textarea1.value+="6";
-}
-function Odin() {
-    textarea1.value +="1";
-}
-function Dva() {
-    textarea1.value +="2";
-}
-function Tri() {
-    textarea1.value+="3";
-}
-function nol() {
-    textarea1.value+="0";
-}
-function Clear() {
-    textarea1.value="";
-}
-function min() {
-    textarea1.value+="-";
-}
-function ymnozh() {
-    textarea1.value+="*";
-}
-function Delen() {
-    textarea1.value+="/";
-}
-function scob1() {
-    textarea1.value+="(";
-}
-function scob2() {
-    textarea1.value+=")";
-}
-function proverka(input) {
-    textarea1.value = textarea1.value.replace(/[^\d]/g, '');
-};
-
+function up() { window.scrollTo(0, 0)}
