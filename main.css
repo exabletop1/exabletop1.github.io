@@ -1,39 +1,198 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+    color: #3081D9;
+    text-decoration: none;
+}
 .header {
     width: 100%;
     height: 150px;
-    background: yellow;
+    background: black;
 }
 
-.text {
-    margin-left: 50%;
-    height: 900px;
-    width: 60px;
-}
-
-.px {
-    margin-top: 50px;
-    position: fixed;
-    visibility: hidden;
-}
-
-.header2 {
-    display: none;
+.content {
     width: 100%;
-    height: 10px;
-    background: yellow;
-    position: fixed;
+    height: 100%;
 }
 
-.cont {
+.banner1 {
+    width: 100%;
+    height: 850px;
+    background-image: url(1fon.jpg);
+}
+
+.footer {
+    background-color: black;
+    margin-top: 1500px;
+    width: 100%;
+    height: 300px;
+}
+
+.logo {
+    margin-top: 30px;
+    height: 75px;
+    width: 100px;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-left: 650px;
+    width: auto;
+    height: 100px;
     display: flex;
 }
 
-.vverx {
-    margin-left: 80%;
-    margin-top: 600px;
+.prods {
+    font-family: cursive;
+    margin-top: 30px;
+    color: white;
+    
+}
+
+.Contacts {
+    font-family: cursive;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.us {
+    font-family: cursive;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+}
+
+.UsProds {
+    font-family: cursive;
+}
+
+.bannerElem1 {
+    width: 100%;
+    height: 850px;
+    font-size: 80pt;
+    text-align: center;
+    color: black;
+}
+
+.ruki {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
     border: 2px solid black;
-    width: 50px;
-    height: 50px;
-    display: none;
-    position: fixed;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+.ruki:hover {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.smaz {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+.smaz:hover {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.masl {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+.masl:hover {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.tehzhid {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+.tehzhid:hover {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.himchist {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+.himchist:hover {
+    font-family: cursive;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.tovary {
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
 }
