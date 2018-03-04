@@ -8,7 +8,7 @@ a:hover {
 }
 .header {
     width: 100%;
-    height: auto;
+    height: 200px;
     background: #343a40!important;
 }
 
@@ -67,7 +67,6 @@ a:hover {
 
 .navbar {
     display: flex;
-
     height: auto;
     width: 100%;
 }
@@ -81,7 +80,7 @@ a:hover {
     height: 850px;
     font-size: 80pt;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .ruki {
@@ -196,18 +195,40 @@ a:hover {
     height: 600px;
     border: 2px solid black;
 }
-@media (min-width: 768px) {
-  .nav.navbar-nav {
-    float: none;
-    text-align: center;
-  }
-
-  .nav.navbar-nav > li {
-    float: none;
-    display: inline-block;
-  }
-}
 
 .vlevo {
-    margin-left: 60%;
+    margin-left: 35%;
+}
+
+.size {
+    font-size: 25pt;
+}
+
+.otsp {
+    margin-left: 30px;
+}
+
+.niz {
+    padding: 50px;
+}
+
+.niz1 {
+    margin-top: 50px;
+}
+
+.hr1 {
+    border: 2px solid black;
+}
+
+.cal {
+    color:white;
+}
+.navbar-default {
+    background-color: black;
+    border-color: black;
+}
+
+
+.navbar-dark {
+    background-color: black;
 }
