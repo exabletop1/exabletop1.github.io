@@ -8,8 +8,8 @@ a:hover {
 }
 .header {
     width: 100%;
-    height: 150px;
-    background: black;
+    height: auto;
+    background: #343a40!important;
 }
 
 .content {
