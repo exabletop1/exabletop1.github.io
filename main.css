@@ -1,3 +1,6 @@
+* {
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
 a {
   text-decoration: none;
   color: white;
@@ -20,12 +23,12 @@ a:hover {
 .banner1 {
     width: 100%;
     height: 850px;
-    background-image: url(1fon.jpg);
+    margin-bottom: 30px;
 }
 
 .footer {
     background-color: black;
-    margin-top: 1500px;
+    margin-top: 30px;
     width: 100%;
     height: 300px;
 }
@@ -65,7 +68,7 @@ a:hover {
     color: white;
 }
 
-.navbar {
+.navbar1 {
     display: flex;
     height: auto;
     width: 100%;
@@ -85,84 +88,52 @@ a:hover {
 
 .ruki {
     font-family: cursive;
-    margin-left: 10px;
     margin-bottom: 10px;
-    border: 2px solid black;
     width: 100px;
-    height: 60px;
+    height: auto;
     text-align: center;
+    cursor: pointer;
 }
 .ruki:hover {
-    font-family: cursive;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    width: 100px;
-    height: 60px;
-    text-align: center;
     background-color: black;
     color: white;
 }
 
 .smaz {
     font-family: cursive;
-    margin-left: 10px;
     margin-bottom: 10px;
-    border: 2px solid black;
     width: 100px;
-    height: 60px;
+    height: auto;
     text-align: center;
+    cursor: pointer;
 }
 .smaz:hover {
-    font-family: cursive;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    width: 100px;
-    height: 60px;
-    text-align: center;
     background-color: black;
     color: white;
 }
 
 .masl {
     font-family: cursive;
-    margin-left: 10px;
     margin-bottom: 10px;
-    border: 2px solid black;
     width: 100px;
-    height: 60px;
+    height: auto;
     text-align: center;
+    cursor: pointer;
 }
 .masl:hover {
-    font-family: cursive;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    width: 100px;
-    height: 60px;
-    text-align: center;
     background-color: black;
     color: white;
 }
 
 .tehzhid {
     font-family: cursive;
-    margin-left: 10px;
     margin-bottom: 10px;
-    border: 2px solid black;
     width: 100px;
-    height: 60px;
+    height: auto;
     text-align: center;
+    cursor: pointer;
 }
 .tehzhid:hover {
-    font-family: cursive;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    width: 100px;
-    height: 60px;
-    text-align: center;
     background-color: black;
     color: white;
 }
@@ -190,10 +161,9 @@ a:hover {
 
 .tovary {
     margin-top: 50px;
-    border: 2px solid black;
     width: 100%;
-    height: 600px;
-    border: 2px solid black;
+    height: auto;
+    display: flex;
 }
 
 .vlevo {
@@ -212,9 +182,7 @@ a:hover {
     padding: 50px;
 }
 
-.niz1 {
-    margin-top: 50px;
-}
+
 
 .hr1 {
     border: 2px solid black;
@@ -231,4 +199,35 @@ a:hover {
 
 .navbar-dark {
     background-color: black;
+}
+
+.tovarkard1 {
+    height: 600px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.niz1 {
+    margin-top: 30px;
+}
+
+.sz {
+    font-size: 21pt;
+}
+
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+}
+
+
+.price {
+    background: #d9272e;
+    color: white;
+}
+
+.artic {
+    background: #a0a0a0;
+    color: white;
 }
