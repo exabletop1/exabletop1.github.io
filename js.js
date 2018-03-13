@@ -70,3 +70,11 @@ function sortir4() {
     document.getElementById( 'item15' ).style.display = 'block';
     document.getElementById( 'item16' ).style.display = 'block';
 }
+$(document).ready(function(){
+	$("navarNav").on("click","a", function (event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top}, 1000);
+	});
+});

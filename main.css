@@ -22,7 +22,7 @@ a:hover {
 
 .banner1 {
     width: 100%;
-    height: 850px;
+    height: 800px;
     margin-bottom: 30px;
 }
 
@@ -30,7 +30,8 @@ a:hover {
     background-color: black;
     margin-top: 30px;
     width: 100%;
-    height: 300px;
+    height: 200px;
+    display: flex;
 }
 
 .logo {
@@ -88,7 +89,6 @@ a:hover {
 }
 
 .ruki {
-    font-family: cursive;
     margin-bottom: 10px;
     width: 100px;
     height: auto;
@@ -101,7 +101,6 @@ a:hover {
 }
 
 .smaz {
-    font-family: cursive;
     margin-bottom: 10px;
     width: 100px;
     height: auto;
@@ -114,7 +113,6 @@ a:hover {
 }
 
 .masl {
-    font-family: cursive;
     margin-bottom: 10px;
     width: 100px;
     height: auto;
@@ -127,7 +125,6 @@ a:hover {
 }
 
 .tehzhid {
-    font-family: cursive;
     margin-bottom: 10px;
     width: 100px;
     height: auto;
@@ -140,7 +137,6 @@ a:hover {
 }
 
 .himchist {
-    font-family: cursive;
     margin-left: 10px;
     margin-bottom: 10px;
     border: 2px solid black;
@@ -149,13 +145,6 @@ a:hover {
     text-align: center;
 }
 .himchist:hover {
-    font-family: cursive;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    width: 100px;
-    height: 60px;
-    text-align: center;
     background-color: black;
     color: white;
 }
@@ -244,4 +233,18 @@ a:hover {
     margin-top: -159px;
     display: none;
     z-index: 50;
+}
+
+.stolb1 {
+    margin-top: 50px;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.stolb2 {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    width: 50%;
 }
