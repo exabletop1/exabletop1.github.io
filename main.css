@@ -94,6 +94,7 @@ a:hover {
     height: auto;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s ease-out 0s;
 }
 .ruki:hover {
     background-color: black;
@@ -106,6 +107,7 @@ a:hover {
     height: auto;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s ease-out 0s;
 }
 .smaz:hover {
     background-color: black;
@@ -118,6 +120,7 @@ a:hover {
     height: auto;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s ease-out 0s;
 }
 .masl:hover {
     background-color: black;
@@ -130,6 +133,7 @@ a:hover {
     height: auto;
     text-align: center;
     cursor: pointer;
+    transition: 0.3s ease-out 0s;
 }
 .tehzhid:hover {
     background-color: black;
@@ -248,3 +252,20 @@ a:hover {
     text-align: center;
     width: 50%;
 }
+
+
+
+.reset {
+    margin-bottom: 10px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-out 0s;
+}
+
+.reset:hover {
+    background-color: black;
+    color: white;
+}
+
